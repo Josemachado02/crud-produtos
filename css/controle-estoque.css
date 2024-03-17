@@ -1,0 +1,43 @@
+#cabecalho {
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+}
+
+#bem-vindo {
+    margin-right: 0px;
+}
+
+#txt-bem-vindo {
+    margin-top: 20px;
+    text-align: right;
+    color: var(--cor-primaria);
+}
+
+#btn-sair {
+    margin-top: 16px;
+    align-self: right;
+}
+
+#btn-sair:hover {
+    background-color: var(--cor-secundaria);
+    cursor: pointer;
+}
+
+#txt-titulo {
+    color: var(--cor-primaria);
+}
+
+#btn-adicionar:hover {
+    background-color: var(--cor-secundaria);
+    cursor: pointer;
+}
+
+#copyright {
+    text-align: center;
+    color: var(--cor-primaria);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+}
